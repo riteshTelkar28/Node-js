@@ -1,0 +1,16 @@
+{
+  "name": "http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http_1.js",
+  "scripts": {
+    "start": "nodemon http_2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.3"
+  }
+}
