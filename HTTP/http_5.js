@@ -9,7 +9,8 @@ const config = {
 
 var serverInstance = http.createServer((req,res)=>{
     res.writeHead(code,config);
-    var requestedUrl = url.parse(req.url).pathname;    
+    var requestedUrl = url.parse(req.url).pathname;  
+    console.log(requestedUrl);  
     if(requestedUrl=='' || requestedUrl=='/' || requestedUrl=='/home'){
         fs.readFile('home.html',(error,data)=>{
             if(error){
